@@ -4,19 +4,16 @@ button {
   background-color: green;
   color: white;
   width: 100px;
-  margin : 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
   border-radius: 10px;
-
 }
 
 .count {
-  
   font-size: 50px;
   padding: 5px 10px;
- 
 }
 
-.reset button{
+.reset button {
   background-color: rgb(243, 0, 0);
   width: 100px;
 }
