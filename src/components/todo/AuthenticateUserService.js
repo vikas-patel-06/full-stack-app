@@ -8,7 +8,10 @@ class AuthenticateUserService {
   }
 
   isUserLoggedIn() {
-    if (sessionStorage.getItem('authUser') === null) return false
+    const isLoggedIn = sessionStorage.getItem('authUser')
+    if (isLoggedIn === null) {
+      return false
+    }
     return true
   }
 }
